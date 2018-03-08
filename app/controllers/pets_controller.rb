@@ -1,8 +1,6 @@
 class PetsController < ApplicationController
   before_action :set_pet, only: [:show, :edit, :update, :destroy]
   
-  validates :name, presence: true
-  validates :breed, presence: true
 
   # GET /pets
   # GET /pets.json
